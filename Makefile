@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jabenjam <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: jabenjam <jabenjam@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/09 17:02:15 by jabenjam          #+#    #+#              #
-#    Updated: 2019/11/25 20:15:23 by jabenjam         ###   ########.fr        #
+#    Updated: 2020/08/06 14:11:55 by jabenjam         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,12 +39,14 @@ SRCS = ft_abs.c \
 		ft_putstr_fd.c \
 		ft_split.c \
 		ft_strchr.c \
+		ft_strcmp.c \
 		ft_strdup.c \
 		ft_strjoin.c \
 		ft_strlcat.c \
 		ft_strlcpy.c \
 		ft_strlen.c \
 		ft_strmapi.c \
+		ft_strcmp.c \
 		ft_strncmp.c \
 		ft_strnstr.c \
 		ft_strrchr.c \
