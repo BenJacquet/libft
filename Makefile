@@ -6,7 +6,7 @@
 #    By: jabenjam <jabenjam@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/09 17:02:15 by jabenjam          #+#    #+#              #
-#    Updated: 2020/08/06 14:11:55 by jabenjam         ###   ########.fr        #
+#    Updated: 2021/03/10 16:53:11 by jabenjam         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,6 +40,7 @@ SRCS = ft_abs.c \
 		ft_split.c \
 		ft_strchr.c \
 		ft_strcmp.c \
+		ft_strcpy.c \
 		ft_strdup.c \
 		ft_strjoin.c \
 		ft_strlcat.c \
@@ -55,6 +56,7 @@ SRCS = ft_abs.c \
 		ft_substr.c \
 		ft_tolower.c \
 		ft_toupper.c \
+		tab.c \
 
 BSRCS = ft_lstadd_back.c \
 		ft_lstadd_front.c \

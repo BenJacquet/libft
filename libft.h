@@ -6,7 +6,7 @@
 /*   By: jabenjam <jabenjam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/08 18:05:09 by jabenjam          #+#    #+#             */
-/*   Updated: 2020/07/28 15:16:52 by jabenjam         ###   ########.fr       */
+/*   Updated: 2021/03/10 17:29:40 by jabenjam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ char				*ft_strchr(const char *s, int c);
 char				*ft_strdup(const char *s1);
 int					ft_strcmp(char *s1, char *s2);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
+char				*ft_strcpy(char *dest, char *src);
 size_t				ft_strlcpy(char *dst, const char *src, size_t size);
 char				*ft_strnstr(const char *haystack, const char *needle,
 								size_t len);
@@ -61,8 +62,19 @@ size_t				ft_strlcat(char *dst, const char *src, size_t size);
 size_t				ft_strlen(const char *s);
 char				**ft_split(char const *s, char c);
 int					ft_toklen(const char *s, char c);
+int					ft_count_tokens(const char *str, char c);
 char				*ft_strjoin(char const *s1, char const *s2);
+char				*ft_strjoinf(char *s1, char *s2);
 char				*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+
+/*
+**------TAB FUNCTIONS----------------------------------------------------------
+*/
+
+void				ft_puttab(char **tab);
+int					ft_tablen(char **tab);
+void				free_tab(char **tab);
+char				**tab_dup(char **tab);
 
 /*
 **------MEMORY FUNCTIONS-------------------------------------------------------
@@ -81,6 +93,7 @@ void				*ft_calloc(size_t count, size_t size);
 **------CONVERSION FUNCTIONS---------------------------------------------------
 */
 int					ft_atoi(const char *str);
+long				ft_atol(const char *str);
 int					ft_ilen(int n);
 char				*ft_itoa(int n);
 
