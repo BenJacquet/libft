@@ -10,7 +10,6 @@ void	ft_puttab(char **tab)
 		ft_putstr_fd(tab[i++], 1);
 		write(1, "\n", 2);
 	}
-	free_tab(tab);
 }
 
 int		ft_tablen(char **tab)
